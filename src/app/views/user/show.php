@@ -20,7 +20,7 @@
         <p>Email:
             <?= $user['email']; ?>
         </p>
-        <a href="?url=user" class="btn btn-primary">Back to List</a>
+        <a href="/user" class="btn btn-primary">Back to List</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

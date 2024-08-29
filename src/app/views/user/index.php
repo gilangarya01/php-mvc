@@ -11,7 +11,7 @@
 <body>
     <div class="container mt-5">
         <h1>User List</h1>
-        <a href="?url=user/create" class="btn btn-success">Add User</a>
+        <a href="user/create" class="btn btn-success">Add User</a>
         <table class="table mt-2">
             <thead>
                 <tr class="table-dark">
@@ -34,13 +34,13 @@
                             <?= $user['email']; ?>
                         </td>
                         <td>
-                            <a href="?url=user/show/<?= $user['id']; ?>">
+                            <a href="user/show/<?= $user['id']; ?>">
                                 <span class="badge bg-primary">View</span>
                             </a>
-                            <a href="?url=user/edit/<?= $user['id']; ?>">
+                            <a href="user/edit/<?= $user['id']; ?>">
                                 <span class="badge bg-warning">Edit</span>
                             </a>
-                            <a href="?url=user/destroy/<?= $user['id']; ?>">
+                            <a href="user/destroy/<?= $user['id']; ?>" onclick="return confirm('Are you sure?')">
                                 <span class="badge bg-danger">Delete</span>
                             </a>
                         </td>

@@ -11,7 +11,7 @@
 <body>
     <div class="container mt-5">
         <h1>Add User</h1>
-        <form action="?url=user/store" method="post">
+        <form action="/user/store" method="post">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" class="form-control" id="username" name="username" required>
@@ -25,7 +25,7 @@
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <div class="button-area mt-5">
-                <a href="?url=user" class="btn btn-secondary">Back to List</a>
+                <a href="/user" class="btn btn-secondary">Back to List</a>
                 <button type="submit" class="btn btn-success">Add User</button>
             </div>
 
