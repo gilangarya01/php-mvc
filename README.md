@@ -1,8 +1,8 @@
-## PHP MVC Sederhana
+## PHP MVC
 
 ### Decription
 
-Sebuah template PHP MVC sederhana untuk memulai proyek pengembangan web Anda. Template ini mengikuti pola arsitektur Model-View-Controller (MVC), memberikan dasar terstruktur untuk membangun aplikasi PHP yang dapat di-maintain dan skalabel.
+Sebuah template PHP MVC untuk memulai proyek pengembangan web Anda. Template ini mengikuti pola arsitektur Model-View-Controller (MVC), memberikan dasar terstruktur untuk membangun aplikasi PHP yang dapat di-maintain dan skalabel.
 
 ### Tech Stack
 
